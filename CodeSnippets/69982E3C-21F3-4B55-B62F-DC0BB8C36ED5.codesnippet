@@ -6,10 +6,16 @@
 	<string>_sharedInstanceHeader</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (instancetype)sharedInstance;</string>
+	<string>#define &lt;#Class#&gt;Instance [&lt;#Class#&gt; sharedInstance]
+
+@interface &lt;#Class#&gt; : NSObject
+
++ (instancetype)sharedInstance;
+
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>69982E3C-21F3-4B55-B62F-DC0BB8C36ED5</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -19,6 +25,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
