@@ -9,7 +9,8 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (instancetype)sharedInstance {
+	<string>+ (instancetype)sharedInstance 
+{
     static &lt;#Class#&gt; *instance = nil;
     static dispatch_once_t predicate;
     dispatch_once(&amp;predicate, ^{
@@ -23,7 +24,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SharedInstance</string>
+	<string>Shared Instance</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>_weakSelf</string>
+	<string>@synchronized</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typeof(self) __weak weakSelf = self;</string>
+	<string>    @synchronized(&lt;#some object#&gt;) {
+
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>37DB18BF-1D5B-4684-95EB-D744079E9A9F</string>
+	<string>1EFE3856-754E-4B79-A4ED-D024F5FC645C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Weak Self</string>
+	<string>@synchronized</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
