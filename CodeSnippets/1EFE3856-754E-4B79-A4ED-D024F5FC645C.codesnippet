@@ -9,9 +9,9 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    @synchronized(&lt;#some object#&gt;) {
+	<string>@synchronized(&lt;#some object#&gt;) {
 
-    }</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1EFE3856-754E-4B79-A4ED-D024F5FC645C</string>
 	<key>IDECodeSnippetLanguage</key>
