@@ -16,7 +16,7 @@
 
 @interface &lt;#Class#&gt;()
 
-@property (nonatomic, retain) NSMutableArray *sections;
+@property (nonatomic, strong) NSMutableArray *sections;
 
 @end
 
@@ -36,6 +36,8 @@
         
         [self.sections addObject:@{kSectionTitleKey: @"测试",
                                    kCellTitleArrayKey: array}];
+        
+        [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"DefaultCellIDentifier"];
     }
 }
 
