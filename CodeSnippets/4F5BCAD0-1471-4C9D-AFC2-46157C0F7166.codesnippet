@@ -3,19 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@pdelegate</string>
+	<string>testonstart</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) id&lt;&lt;#protocol#&gt;&gt; &lt;#delegate#&gt;;</string>
+	<string>#ifdef TARGET_ETP
+#warning lxb test on start
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            
+        });
+    });
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EB9E0550-843F-41F8-B352-18821FDF4FD4</string>
+	<string>4F5BCAD0-1471-4C9D-AFC2-46157C0F7166</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property Delegate</string>
+	<string>TestOnStart</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

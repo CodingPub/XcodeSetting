@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@pw</string>
+	<string>@pweak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, weak) &lt;#type#&gt; *&lt;#property#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BE450C49-365D-4391-94C1-4E756E5940B2</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Property weak</string>
 	<key>IDECodeSnippetUserSnippet</key>
