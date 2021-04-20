@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@available</string>
+	<string>testbundle</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (@available(iOS &lt;#version#&gt;, *)) {
-    &lt;#code#&gt;
-}</string>
+	<string>let bundle = Bundle(for: type(of: self))</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>03A4FA92-3837-4618-B897-FCA746A58303</string>
+	<string>4C3F03AA-9E48-495F-8D35-9D06DCB6ACBA</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>available</string>
+	<string>test bundle</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

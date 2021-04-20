@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@available</string>
+	<string>enablelint</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (@available(iOS &lt;#version#&gt;, *)) {
-    &lt;#code#&gt;
-}</string>
+	<string>// swiftlint:enable</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>03A4FA92-3837-4618-B897-FCA746A58303</string>
+	<string>F9B4C077-BD22-4B62-AF90-75BA7022FC3B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>available</string>
+	<string>Enable SwiftLint</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

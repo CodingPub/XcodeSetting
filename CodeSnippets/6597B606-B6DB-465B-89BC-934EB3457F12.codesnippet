@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@available</string>
+	<string>export model</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (@available(iOS &lt;#version#&gt;, *)) {
-    &lt;#code#&gt;
-}</string>
+	<string>@_exported import </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>03A4FA92-3837-4618-B897-FCA746A58303</string>
+	<string>6597B606-B6DB-465B-89BC-934EB3457F12</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>available</string>
+	<string>Export Model</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
